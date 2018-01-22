@@ -1,0 +1,6 @@
+[package]
+name = "servo-display-manager"
+version = "0.1.0"
+authors = ["Ayrton Sparling <ayrton@sparling.us>"]
+
+[dependencies]
