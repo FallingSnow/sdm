@@ -2,5 +2,14 @@
 name = "servo-display-manager"
 version = "0.1.0"
 authors = ["Ayrton Sparling <ayrton@sparling.us>"]
-
+description = "A display manager for wayland using a servo interface."
 [dependencies]
+clap = "2.29.2"
+slog = {version = "2.1.1", features = ["max_level_trace"]}
+slog-term = "2.3.0"
+slog-async = "2.2.0"
+dbus = "0.6.1"
+pam-auth = "0.5.3"
+config = "0.8.0"
+serde = "1.0.27"
+serde_derive = "1.0.27"
