@@ -1,6 +1,8 @@
 # Servo Display Manager
 A themeable login/display manager for wayland sessions using Mozilla's Servo browser.
 
+**Servo Display Manager is a work in progress, it doesn't work yet**
+
 ### Goals
 * A high performance, light-weight display manager
 * The ability to swap in and out different HTML & Javascript login themes
@@ -57,7 +59,7 @@ A themeable login/display manager for wayland sessions using Mozilla's Servo bro
 ### Notes
 * Getting a list of wayland sessions -
 A list of supported wayland sessions can be founds in `/usr/share/wayland-sessions`.
-* Starting a wayland session -active
+* Starting a wayland session -
 Sessions can be started via `XDG_SESSION_TYPE=wayland gnome-session`.
 * [users](https://github.com/ogham/rust-users) - Can be used to get users (among other things) to send to theme api
 * [parsswd](https://github.com/kstep/parsswd) - Native passwd parser to go through users
